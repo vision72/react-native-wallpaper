@@ -20,3 +20,7 @@ const Wallpaper = NativeModules.Wallpaper
 export function multiply(a: number, b: number): Promise<number> {
   return Wallpaper.multiply(a, b);
 }
+
+export function setWallpaper(imageUrl: string): Promise<boolean> {
+  return Wallpaper.setWallpaper(imageUrl);
+}
