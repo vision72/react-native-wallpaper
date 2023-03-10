@@ -10,12 +10,17 @@ npm install react-native-wallpaper
 
 ## Usage
 
-```js
+```ts
 import { multiply } from 'react-native-wallpaper';
+
+import { setWallpaper } from 'react-native-wallpaper';
 
 // ...
 
 const result = await multiply(3, 7);
+
+const result: boolean = await setWallpaper(YOUR_IMAGE_URL);
+
 ```
 
 ## Contributing
