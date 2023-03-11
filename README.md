@@ -1,19 +1,19 @@
-# react-native-wallpaper
+# react-native-phone-wallpaper
 
 A simple implementation of a RN library for updating phone wallpaper.
 
 ## Installation
 
 ```sh
-npm install react-native-wallpaper
+npm install react-native-phone-wallpaper
 ```
 
 ## Usage
 
 ```ts
-import { multiply } from 'react-native-wallpaper';
+import { multiply } from 'react-native-phone-wallpaper';
 
-import { setWallpaper } from 'react-native-wallpaper';
+import { setWallpaper } from 'react-native-phone-wallpaper';
 
 // ...
 
